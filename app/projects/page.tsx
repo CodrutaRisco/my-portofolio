@@ -48,6 +48,14 @@ const projects: Project[] = [
     liveLink: "",
     detailsPage: "/projects/css-variables",
   },
+  {
+    title: "Viva PR App 🎉",
+    description:
+      "A real-world event discovery app for iOS & Android, currently in development with bilingual support and event scraping features.",
+    link: "",
+    liveLink: "",
+    detailsPage: "/projects/vivapr",
+  },
 ];
 
 export default function ProjectsPage() {
