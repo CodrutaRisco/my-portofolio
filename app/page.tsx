@@ -34,6 +34,14 @@ const projects: Project[] = [
     liveLink: "",
     detailsPage: "/projects/clock",
   },
+  {
+    title: "Drum Kit Project 🥁",
+    description:
+      "A drum kit app built with JavaScript that plays sounds on keyboard input.",
+    link: "https://github.com/CodrutaRisco/drum-kit",
+    liveLink: "",
+    detailsPage: "/projects/drumkit",
+  },
 ];
 
 export default function Portfolio() {
