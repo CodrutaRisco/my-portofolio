@@ -8,7 +8,10 @@ export default function ClockProjectPage() {
       <h1 className="text-3xl font-bold mb-4">JavaScript Clock 🕒</h1>
 
       <p className="mb-4 text-gray-700">
-        This is a real-time analog clock built using HTML, CSS, and vanilla JavaScript. It reads the current time using the JavaScript <code>Date</code> object and updates the clock hands using CSS transforms.
+        This is a real-time analog clock built using HTML, CSS, and vanilla
+        JavaScript. It reads the current time using the JavaScript{" "}
+        <code>Date</code> object and updates the clock hands using CSS
+        transforms.
       </p>
 
       <Image
@@ -22,7 +25,7 @@ export default function ClockProjectPage() {
       <h2 className="text-xl font-semibold mb-2">Code Sample</h2>
       <pre className="bg-gray-100 p-4 rounded text-sm overflow-x-auto mb-6">
         <code>
-{`const now = new Date();
+          {`const now = new Date();
 const seconds = now.getSeconds();
 const secondsDegrees = ((seconds / 60) * 360) + 90;
 secondHand.style.transform = \`rotate(\${secondsDegrees}deg)\`;`}
@@ -33,7 +36,9 @@ secondHand.style.transform = \`rotate(\${secondsDegrees}deg)\`;`}
       <ul className="list-disc list-inside text-gray-700 mb-6">
         <li>How to use the JavaScript Date API</li>
         <li>Manipulating CSS variables from JavaScript</li>
-        <li>Rotating elements using CSS <code>transform</code></li>
+        <li>
+          Rotating elements using CSS <code>transform</code>
+        </li>
         <li>Using event listeners to update UI in real time</li>
       </ul>
 
@@ -50,7 +55,9 @@ secondHand.style.transform = \`rotate(\${secondsDegrees}deg)\`;`}
 
       <div className="mt-8">
         <Link href="/">
-          <span className="text-sm text-gray-500 hover:underline">← Back to portfolio</span>
+          <span className="text-sm text-gray-500 hover:underline">
+            ← Back to portfolio
+          </span>
         </Link>
       </div>
     </div>
