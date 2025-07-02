@@ -1,66 +1,27 @@
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
-type Project = {
-  title: string;
-  description: string;
-  link: string;
-  liveLink: string;
-  detailsPage?: string;
-};
-
-const projects: Project[] = [
-  {
-    title: "NC News",
-    description:
-      "A social news aggregation site built with React, JS, and a custom API.The application is deployed on Netlify. Access the live version here.",
-
-    link: "https://github.com/CodrutaRisco/nc-news.git",
-    liveLink: "https://codruta-nc-news.netlify.app",
-  },
-  {
-    title: "Mindfulness App",
-    description: "A group project - mobile app for mindfulness and meditation.",
-    link: "https://github.com/santoshjani31/fe_connect_backend",
-    liveLink: "",
-    detailsPage: "/projects/mindfulness",
-  },
-  {
-    title: "Clock Project",
-    description:
-      "This project was built by following Wes Bos's **JavaScript 30** course.  It features a real-time analog clock that updates every second using JavaScript's Date API and CSS transforms.",
-    link: "https://github.com/CodrutaRisco/JS-clock",
-    liveLink: "",
-    detailsPage: "/projects/clock",
-  },
-  {
-    title: "Drum Kit Project 🥁",
-    description:
-      "A drum kit app built with JavaScript that plays sounds on keyboard input.",
-    link: "https://github.com/CodrutaRisco/drum-kit",
-    liveLink: "",
-    detailsPage: "/projects/drumkit",
-  },
-  {
-    title: "CSS Variables Project 🎨",
-    description:
-      "An interactive project that updates CSS variables using JavaScript for real-time style changes.",
-    link: "https://github.com/CodrutaRisco/css-variables",
-    liveLink: "",
-    detailsPage: "/projects/css-variables",
-  },
-];
 
 export default function Portfolio() {
   const subtitle = "Full Stack Developer & Lifelong Learner";
   return (
     <div className="p-8 max-w-4xl mx-auto text-center">
       <h1 className="text-3xl font-bold mb-2">Codruta Risco</h1>
+
+      <Image
+        src="/images/profile.jpg"
+        alt="Profile Picture"
+        width={250}
+        height={250}
+        className="rounded-full mx-auto mb-4"
+      />
       <h2 className="text-lg text-gray-600 mb-4">{subtitle}</h2>
 
       <p className="text-lg mb-6">
-        Hi, I'm a software engineer passionate about building web applications.
+        Hi, I'm a software engineer who loves learning new technologies and
+        building projects that solve real problems.
       </p>
       <div className="flex justify-center space-x-4 mb-6">
         <a
@@ -79,28 +40,13 @@ export default function Portfolio() {
         </a>
       </div>
       <h2 className="text-2xl font-semibold mb-4">Projects</h2>
-      <div className="grid gap-4">
-        {projects.map((project) => (
-          <div key={project.title}>
-            <h2>{project.title}</h2>
-            <p>{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              GitHub
-            </a>{" "}
-            {project.liveLink && (
-              <a
-                href={project.liveLink}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live Demo
-              </a>
-            )}
-            {project.detailsPage && (
-              <a href={project.detailsPage}>View Details</a>
-            )}
-          </div>
-        ))}
+
+      <div className="mt-8">
+        <Link href="/projects">
+          <span className="text-blue-600 hover:underline">
+            View My Projects →
+          </span>
+        </Link>
       </div>
     </div>
   );
