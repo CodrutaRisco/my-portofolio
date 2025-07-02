@@ -42,6 +42,14 @@ const projects: Project[] = [
     liveLink: "",
     detailsPage: "/projects/drumkit",
   },
+  {
+    title: "CSS Variables Project 🎨",
+    description:
+      "An interactive project that updates CSS variables using JavaScript for real-time style changes.",
+    link: "https://github.com/CodrutaRisco/css-variables",
+    liveLink: "",
+    detailsPage: "/projects/css-variables",
+  },
 ];
 
 export default function Portfolio() {
