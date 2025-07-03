@@ -64,6 +64,22 @@ const projects: Project[] = [
     liveLink: "https://codrutarisco.github.io/flex-panels/",
     detailsPage: "/projects/flex-panels",
   },
+  {
+    title: "Canvas Drawing Project 🎨",
+    description:
+      "An interactive drawing app using HTML5 Canvas and vanilla JavaScript.",
+    link: "https://github.com/CodrutaRisco/fun-with-html5-canvas",
+    liveLink: " https://codrutarisco.github.io/fun-with-html5-canvas/",
+    detailsPage: "/projects/canvas",
+  },
+  {
+    title: "City & State Live Search 🔍",
+    description:
+      "Dynamic search for US cities and states with highlighted matches and formatted population numbers.",
+    link: "https://github.com/CodrutaRisco/city-state-search",
+    liveLink: "https://codrutarisco.github.io/city-state-search/",
+    detailsPage: "/projects/city-state-search",
+  },
 ];
 
 export default function ProjectsPage() {
