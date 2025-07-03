@@ -43,5 +43,5 @@ Each project page includes:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/CodrutaRisco/portfolio.git
+git clone https://github.com/CodrutaRisco/ny-portofolio
 cd portfolio
