@@ -44,12 +44,12 @@ secondHand.style.transform = \`rotate(\${secondsDegrees}deg)\`;`}
 
       <div className="mt-4">
         <a
-          href="https://github.com/CodrutaRisco/JS-clock"
+          href="https://codrutarisco.github.io/JS-clock/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 hover:underline"
         >
-          🔗 View project on GitHub
+          🔗 View project Live Demo
         </a>
       </div>
 

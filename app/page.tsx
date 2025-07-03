@@ -39,7 +39,6 @@ export default function Portfolio() {
           <FaLinkedin size={30} />
         </a>
       </div>
-      {/* <h2 className="text-2xl font-semibold mb-4">Projects</h2> */}
 
       <div className="text-2xl font-semibold mb-4">
         <Link href="/projects">

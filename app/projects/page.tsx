@@ -44,7 +44,7 @@ const projects: Project[] = [
   {
     title: "Drum Kit Project 🥁",
     description: "Drum kit app built with JavaScript and event listeners.",
-    link: "https://github.com/CodrutaRisco/drum-kit",
+    link: "https://github.com/CodrutaRisco/wb-drum-kit.git",
     liveLink: "https://codrutarisco.github.io/wb-drum-kit/",
     detailsPage: "/projects/drumkit",
   },
@@ -52,9 +52,17 @@ const projects: Project[] = [
     title: "CSS Variables Project 🎨",
     description:
       "Updates CSS variables dynamically using JavaScript for real-time style changes.",
-    link: "https://github.com/CodrutaRisco/css-variables",
+    link: "https://github.com/CodrutaRisco/update-css.git",
     liveLink: "https://codrutarisco.github.io/update-css/",
     detailsPage: "/projects/css-variables",
+  },
+  {
+    title: "Flex Panels Project 🎬",
+    description:
+      "An interactive image gallery using CSS Flexbox, built by following Wes Bos's JavaScript30 course.",
+    link: "https://github.com/CodrutaRisco/flex-panels.git",
+    liveLink: "https://codrutarisco.github.io/flex-panels/",
+    detailsPage: "/projects/flex-panels",
   },
 ];
 

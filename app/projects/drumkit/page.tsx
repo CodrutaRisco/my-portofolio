@@ -8,8 +8,10 @@ export default function DrumKitProjectPage() {
       <h1 className="text-3xl font-bold mb-4">Drum Kit Project 🥁</h1>
 
       <p className="mb-4 text-gray-700">
-        This project was built by following Wes Bos's <strong>JavaScript 30</strong> course.
-        It simulates a virtual drum kit that plays different drum sounds when specific keys are pressed on the keyboard.
+        This project was built by following Wes Bos's{" "}
+        <strong>JavaScript 30</strong> course. It simulates a virtual drum kit
+        that plays different drum sounds when specific keys are pressed on the
+        keyboard.
       </p>
 
       <Image
@@ -23,7 +25,7 @@ export default function DrumKitProjectPage() {
       <h2 className="text-xl font-semibold mb-2">Code Sample</h2>
       <pre className="bg-gray-100 p-4 rounded text-sm overflow-x-auto mb-6">
         <code>
-{`function playSound(e) {
+          {`function playSound(e) {
   const audio = document.querySelector(\`audio[data-key=\"\${e.keyCode}\"]\`);
   const key = document.querySelector(\`.key[data-key=\"\${e.keyCode}\"]\`);
   if (!audio) return;
@@ -53,18 +55,20 @@ window.addEventListener('keydown', playSound);`}
 
       <div className="mt-4">
         <a
-          href="https://github.com/CodrutaRisco/drum-kit"
+          href="https://codrutarisco.github.io/wb-drum-kit/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 hover:underline"
         >
-          🔗 View project on GitHub
+          🔗 View project Live Demo
         </a>
       </div>
 
       <div className="mt-8">
         <Link href="/">
-          <span className="text-sm text-gray-500 hover:underline">← Back to portfolio</span>
+          <span className="text-sm text-gray-500 hover:underline">
+            ← Back to portfolio
+          </span>
         </Link>
       </div>
     </div>
