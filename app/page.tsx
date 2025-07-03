@@ -39,13 +39,13 @@ export default function Portfolio() {
           <FaLinkedin size={30} />
         </a>
       </div>
-      <h2 className="text-2xl font-semibold mb-4">Projects</h2>
+      {/* <h2 className="text-2xl font-semibold mb-4">Projects</h2> */}
 
-      <div className="mt-8">
+      <div className="text-2xl font-semibold mb-4">
         <Link href="/projects">
-          <span className="text-blue-600 hover:underline">
-            View My Projects →
-          </span>
+          <button className="bg-white text-gray-800 px-8 py-3 rounded-full shadow-[8px_8px_15px_#bebebe,-8px_-8px_15px_#ffffff] hover:shadow-lg transition">
+            Projects →
+          </button>
         </Link>
       </div>
     </div>

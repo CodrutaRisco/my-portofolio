@@ -12,6 +12,14 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "Viva PR App 🎉",
+    description:
+      "A real-world event discovery app for iOS & Android, currently in development with bilingual support and event scraping features.",
+    link: "",
+    liveLink: "",
+    detailsPage: "/projects/vivapr",
+  },
+  {
     title: "NC News  🗞",
     description:
       "A social news aggregation site built with React, JS, and a custom API.The application is deployed on Netlify.",
@@ -30,14 +38,14 @@ const projects: Project[] = [
     description:
       "Real-time analog clock built with JS Date API and CSS transforms.",
     link: "https://github.com/CodrutaRisco/JS-clock",
-    liveLink: "",
+    liveLink: "https://codrutarisco.github.io/JS-clock/",
     detailsPage: "/projects/clock",
   },
   {
     title: "Drum Kit Project 🥁",
     description: "Drum kit app built with JavaScript and event listeners.",
     link: "https://github.com/CodrutaRisco/drum-kit",
-    liveLink: "",
+    liveLink: "https://codrutarisco.github.io/wb-drum-kit/",
     detailsPage: "/projects/drumkit",
   },
   {
@@ -45,16 +53,8 @@ const projects: Project[] = [
     description:
       "Updates CSS variables dynamically using JavaScript for real-time style changes.",
     link: "https://github.com/CodrutaRisco/css-variables",
-    liveLink: "",
+    liveLink: "https://codrutarisco.github.io/update-css/",
     detailsPage: "/projects/css-variables",
-  },
-  {
-    title: "Viva PR App 🎉",
-    description:
-      "A real-world event discovery app for iOS & Android, currently in development with bilingual support and event scraping features.",
-    link: "",
-    liveLink: "",
-    detailsPage: "/projects/vivapr",
   },
 ];
 
