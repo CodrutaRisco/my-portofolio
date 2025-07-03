@@ -8,7 +8,7 @@ export default function DrumKitProjectPage() {
       <h1 className="text-3xl font-bold mb-4">Drum Kit Project 🥁</h1>
 
       <p className="mb-4 text-gray-700">
-        This project was built by following Wes Bos's{" "}
+        This project was built by following Wes Bos&apos;s{" "}
         <strong>JavaScript 30</strong> course. It simulates a virtual drum kit
         that plays different drum sounds when specific keys are pressed on the
         keyboard.

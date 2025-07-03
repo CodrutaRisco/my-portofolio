@@ -20,7 +20,7 @@ export default function Portfolio() {
       <h2 className="text-lg text-gray-600 mb-4">{subtitle}</h2>
 
       <p className="text-lg mb-6">
-        Hi, I'm a software engineer who loves learning new technologies and
+        Hi, I&apos;m a software engineer who loves learning new technologies and
         building projects that solve real problems.
       </p>
       <div className="flex justify-center space-x-4 mb-6">

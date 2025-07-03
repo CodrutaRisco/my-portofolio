@@ -8,8 +8,10 @@ export default function CityStateSearchProjectPage() {
       <h1 className="text-3xl font-bold mb-4">City & State Live Search 🔍</h1>
 
       <p className="mb-4 text-gray-700">
-        This project was built by following Wes Bos's <strong>JavaScript 30</strong> course.
-        It allows users to search US cities and states dynamically, highlighting matched text and displaying formatted population numbers.
+        This project was built by following Wes Bos&#39;s{" "}
+        <strong>JavaScript 30</strong> course. It allows users to search US
+        cities and states dynamically, highlighting matched text and displaying
+        formatted population numbers.
       </p>
 
       <Image
@@ -23,7 +25,7 @@ export default function CityStateSearchProjectPage() {
       <h2 className="text-xl font-semibold mb-2">Code Sample</h2>
       <pre className="bg-gray-100 p-4 rounded text-sm overflow-x-auto mb-6">
         <code>
-{`function findMatches(wordToMatch, cities) {
+          {`function findMatches(wordToMatch, cities) {
   return cities.filter(place => {
     const regex = new RegExp(wordToMatch, 'gi');
     return place.city.match(regex) || place.state.match(regex);
@@ -54,7 +56,9 @@ export default function CityStateSearchProjectPage() {
 
       <div className="mt-8">
         <Link href="/projects">
-          <span className="text-sm text-gray-500 hover:underline">← Back to projects</span>
+          <span className="text-sm text-gray-500 hover:underline">
+            ← Back to projects
+          </span>
         </Link>
       </div>
     </div>

@@ -8,8 +8,10 @@ export default function FlexPanelsProjectPage() {
       <h1 className="text-3xl font-bold mb-4">Flex Panels Project 🎬</h1>
 
       <p className="mb-4 text-gray-700">
-        This project was built by following Wes Bos's <strong>JavaScript 30</strong> course.
-        It is an interactive image gallery using CSS Flexbox, where clicking on an image panel expands it smoothly.
+        This project was built by following Wes Bos&#39;s{" "}
+        <strong>JavaScript 30</strong> course. It is an interactive image
+        gallery using CSS Flexbox, where clicking on an image panel expands it
+        smoothly.
       </p>
 
       <Image
@@ -23,7 +25,7 @@ export default function FlexPanelsProjectPage() {
       <h2 className="text-xl font-semibold mb-2">Code Sample</h2>
       <pre className="bg-gray-100 p-4 rounded text-sm overflow-x-auto mb-6">
         <code>
-{`const panels = document.querySelectorAll('.panel');
+          {`const panels = document.querySelectorAll('.panel');
 
 function toggleOpen() {
   this.classList.toggle('open');
@@ -60,7 +62,9 @@ panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));`
 
       <div className="mt-8">
         <Link href="/projects">
-          <span className="text-sm text-gray-500 hover:underline">← Back to projects</span>
+          <span className="text-sm text-gray-500 hover:underline">
+            ← Back to projects
+          </span>
         </Link>
       </div>
     </div>

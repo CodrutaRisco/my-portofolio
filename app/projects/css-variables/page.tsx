@@ -8,7 +8,7 @@ export default function CSSVariablesProjectPage() {
       <h1 className="text-3xl font-bold mb-4">CSS Variables Project 🎨</h1>
 
       <p className="mb-4 text-gray-700">
-        This project was built by following Wes Bos's{" "}
+        This project was built by following Wes Bos&#39;s{" "}
         <strong>JavaScript 30</strong> course. It demonstrates how to
         interactively update CSS variables using JavaScript to change styles in
         real-time.
