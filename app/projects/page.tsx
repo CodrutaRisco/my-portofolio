@@ -12,6 +12,14 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "CodeFlex - AI Fitness Coach 💪",
+    description:
+      "An AI-powered fitness coaching assistant built with Next.js, integrating GPT-4o, Gemini AI, and Voice AI for real-time interactions.",
+    link: "https://github.com/CodrutaRisco/codeflex",
+    liveLink: "",
+    detailsPage: "/projects/codeflex",
+  },
+  {
     title: "Viva PR App 🎉",
     description:
       "A real-world event discovery app for iOS & Android, currently in development with bilingual support and event scraping features.",
