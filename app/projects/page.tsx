@@ -12,6 +12,14 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "WanderVoyager - Travel Exploration Map 🌍",
+    description:
+      "An interactive travel destination explorer built with Next.js, TypeScript, and Storyblok. Navigate from countries to cities to places with dynamic content management.",
+    link: "https://github.com/CodrutaRisco/wander-voyager.git",
+    liveLink: "",
+    detailsPage: "/projects/wandervoyager",
+  },
+  {
     title: "CodeFlex - AI Fitness Coach 💪",
     description:
       "An AI-powered fitness coaching assistant built with Next.js, integrating GPT-4o, Gemini AI, and Voice AI for real-time interactions.",
@@ -38,7 +46,7 @@ const projects: Project[] = [
     title: "Mindfulness App 🧘‍♀️",
     description: "A group project - mobile app for mindfulness and meditation.",
     link: "https://github.com/santoshjani31/fe_connect_backend",
-    liveLink: "",
+    liveLink: "https://vimeo.com/1172108439?fl=tl&fe=ec",
     detailsPage: "/projects/mindfulness",
   },
   {

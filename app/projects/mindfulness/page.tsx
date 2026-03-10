@@ -8,7 +8,9 @@ export default function MindfulnessProjectPage() {
       <h1 className="text-3xl font-bold mb-4">Mindfulness App 🧘‍♀️</h1>
 
       <p className="mb-4 text-gray-700">
-        This is a group project built as part of my coding bootcamp. The app is designed for mindfulness and wellbeing, helping users track and improve their mental health through simple daily activities.
+        This is a group project built as part of my coding bootcamp. The app is
+        designed for mindfulness and wellbeing, helping users track and improve
+        their mental health through simple daily activities.
       </p>
 
       <h2 className="text-xl font-semibold mb-2">Technologies used</h2>
@@ -42,7 +44,7 @@ export default function MindfulnessProjectPage() {
           height={300}
           className="rounded"
         />
-         <Image
+        <Image
           src="/images/mindfulness4.png"
           alt="Mindfulness app screenshot 4"
           width={400}
@@ -72,7 +74,9 @@ export default function MindfulnessProjectPage() {
 
       <div className="mt-8">
         <Link href="/">
-          <span className="text-sm text-gray-500 hover:underline">← Back to portfolio</span>
+          <span className="text-sm text-gray-500 hover:underline">
+            ← Back to portfolio
+          </span>
         </Link>
       </div>
     </div>
